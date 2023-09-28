@@ -17,7 +17,7 @@ export default function Header() {
       className="fixed top-0 mx-auto h-[4.5rem] w-full rounded-none border border-white border-opacity-40 bg-white bg-opacity-80 shadow-lg shadow-black/[0.03] backdrop-blur-[0.5rem] sm:top-6 sm:h-[3.25rem] sm:w-[40rem] sm:rounded-full dark:bg-gray-950 dark:border-black/40 dark:bg-opacity-75"
     >
       <div className="py-[12px] px-6 text-[0.9rem] font-medium text-gray-500 relative flex justify-between">
-      <div>tgbotex</div>
+      <div>SeguelGlasses</div>
         {/*   <div>links</div> */}
       </div>
     </div>

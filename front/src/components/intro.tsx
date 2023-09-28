@@ -1,17 +1,17 @@
-/*"use client";
-import { motion } from "framer-motion";
+"use client";
+//import { motion } from "framer-motion";
 import Link from "next/link";
-import { BsArrowRight } from "react-icons/bs";
-import { useSectionInView } from "@/lib/hooks";
+//import { BsArrowRight } from "react-icons/bs";
+//import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 
 export default function Intro() {
-  const { ref } = useSectionInView("Home", 0.5);
-  const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
+  /*const { ref } = useSectionInView("Home", 0.5);
+  const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();*/
 
   return (
     <section
-      ref={ref}
+   //   ref={ref}
       id="home"
       className="mb-28 sm:max-w-[45rem] text-center sm:my-12  scroll-mt-[100rem]"
     >
@@ -42,7 +42,7 @@ export default function Intro() {
               <div className="flex items-center justify-evenly	 mt-5 gap-2 w-full mx-auto lg:mx-0">    
                 <Link target="_blank"  href="https://t.me/ejemplo" className="group bg-gray-900 text-white  px-5 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition">
                   Launch Bot
-                  <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
+               
                 </Link>
                 <Link target="_blank"  href="https://t.me/ejemplo" className="bg-white borderBlack dark:bg-white/10 dark:text-white/80 group px-5 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-200 active:scale-105 transition">
                   Join telegram
@@ -73,4 +73,3 @@ export default function Intro() {
     </section>
   );
 }
-*/

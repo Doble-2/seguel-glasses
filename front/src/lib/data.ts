@@ -18,18 +18,15 @@ export const links = [
     name: "Home",
     hash: "#home",
   },
- /* {
-    name: "WHITEPAPER",
-    hash: "#whitepaper",
-  },*/
+  {
+    name: "Catalogo",
+    hash: "#catalogo",
+  },
   {
     name: "About",
     hash: "#about",
   },
-  {
-    name: "Roadmap",
-    hash: "#roadmap",
-  },
+
 
   {
     name: "Investors",
