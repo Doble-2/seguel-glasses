@@ -1,3 +1,4 @@
+/*
 "use client";
 import React from "react";
 import { featuresData } from "@/lib/data";
@@ -17,7 +18,7 @@ export default function Features() {
             <Feature {...feature} />
           </React.Fragment>
         ))}
-        </div>*/} 
+        </div>} 
         <div className="flex justify-start flex-wrap justify-evenly sm:grid-cols-4 grid-cols-2 gap-4">
           {featuresData.map((feature, index) => (
             // eslint-disable-next-line react/jsx-key
@@ -31,3 +32,4 @@ export default function Features() {
     </section>
   );
 }
+*/

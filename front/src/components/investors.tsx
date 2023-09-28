@@ -1,4 +1,4 @@
-"use client";
+/*"use client";
 import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
@@ -22,7 +22,7 @@ export default function Investors() {
            WE HAVE AN  <span className="font-medium"> EXCELLENT TEAM OF INVESTORS </span> THAT SUPPORTS THE PROJECT
         </p>
         <div className="flex justify-center flex-wrap sm:grid-cols-3 grid-cols-2 gap-4">
-            {/*sm:grid-cols-3 grid-cols-2*/}
+            {/*sm:grid-cols-3 grid-cols-2}
             {investorsData.map((investor , index) => (
             // eslint-disable-next-line react/jsx-key
             <Image key={'key'} className="basis-1/3	sm:basis-1/4 w-36 sm:w-48" alt={investor.alt} src={investor.imageUrl}/>
@@ -33,3 +33,4 @@ export default function Investors() {
     </motion.section>
   );
 }
+*/

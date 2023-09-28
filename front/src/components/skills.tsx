@@ -1,4 +1,4 @@
-"use client";
+/*"use client";
 import SectionHeading from "./section-heading";
 import { skillsData } from "@/lib/data";
 import { motion } from "framer-motion";
@@ -47,3 +47,4 @@ export default function Comparison() {
     </section>
   );
 }
+*/

@@ -1,4 +1,4 @@
-"use client";
+/*"use client";
 
 import React from "react";
 import { motion } from "framer-motion";
@@ -12,4 +12,4 @@ export default function SectionDivider() {
       transition={{ delay: 0.125 }}
     ></motion.div>
   );
-}
+}*/

@@ -1,4 +1,4 @@
-"use client";
+/*"use client";
 
 import React from "react";
 import SectionHeading from "./section-heading";
@@ -49,7 +49,7 @@ export default function Roadmap() {
               <p className="font-normal !mt-0">{item.location}</p>
             { /*<p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
                 {item.description}
-            </p> */}
+            </p> }
               <ul className="list-disc list-inside !font-normal">
                 {item.list.map((item, index) => (
                   <li key={index}>{item}</li>
@@ -62,3 +62,4 @@ export default function Roadmap() {
     </section>
   );
 }
+*/

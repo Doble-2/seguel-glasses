@@ -1,5 +1,5 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
+/*import { CgWorkAlt } from "react-icons/cg";
 import { LuRocket } from "react-icons/lu";
 import { LuFlame } from "react-icons/lu";
 import { LuWallet } from "react-icons/lu";
@@ -12,7 +12,7 @@ import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 import overgroup from "@/public/overgroup.png";
 
-
+*/
 export const links = [
   {
     name: "Home",
@@ -52,7 +52,7 @@ export const roadmapData = [
         "Token Balances",
         "Go Token Plus Analysis",
       ],
-    icon: React.createElement(LuRocket),
+//    icon: React.createElement(LuRocket),
     date: "oct 23 - ene 24",
   },
   {
@@ -67,7 +67,7 @@ export const roadmapData = [
       "Airdrops",
       "Token Launch"
     ],
-    icon: React.createElement(LuFlame),
+  //  icon: React.createElement(LuFlame),
     date: "ene 24 - abril 24",
   },
   {
@@ -80,7 +80,7 @@ export const roadmapData = [
       "Dapp"
     ],
     description:"Descripcion de ejemplo de cada fase donde explicamos en grandes rasgos los pasos",
-    icon: React.createElement(LuWallet),
+   // icon: React.createElement(LuWallet),
     date: "abril 24 - julio 24",
   },
   {
@@ -91,7 +91,7 @@ export const roadmapData = [
       "Token Contract Analysis",
     ],
     description:"Descripcion de ejemplo de cada fase donde explicamos en grandes rasgos los pasos",
-    icon: React.createElement(LuTrophy),
+//  icon: React.createElement(LuTrophy),
     date: "julio 24 - octubre 24",
   },
 ] as const;
@@ -100,18 +100,19 @@ export const inchData = [
   {
     title: "Highlighting 1inch Integration",
     description: "💡 Why settle for less? Our bot uses 1inch’s DEX aggregation to find you the best trading prices across multiple exchanges. #DeFi #1inch",
-    imageUrl: corpcommentImg,
+   // imageUrl: corpcommentImg,
   },
   {
     title: "Ease of Use",
     description:
       "👌 Swapping crypto has never been easier! Our Telegram bot is user-friendly and packed with features. #DeFi #Crypto",
-    imageUrl: rmtdevImg,
+   // imageUrl: rmtdevImg,
   },
   {
     title: "Comparisons",
     description: "💪 Why use multiple platforms? Our Telegram bot + 1inch offers a one-stop solution for all your crypto needs. #DeFi",
-    imageUrl: wordanalyticsImg,}
+    //imageUrl: wordanalyticsImg,
+  }
 ] as const;
 export const featuresData = [
 /*  
@@ -150,7 +151,7 @@ export const featuresData = [
 export const investorsData = [
   {
     alt: "Overgroup",
-    imageUrl: overgroup,
+    //imageUrl: overgroup,
   },
   
 

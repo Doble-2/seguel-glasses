@@ -1,4 +1,4 @@
-"use client";
+/*"use client";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { BsArrowRight } from "react-icons/bs";
@@ -73,3 +73,4 @@ export default function Intro() {
     </section>
   );
 }
+*/
