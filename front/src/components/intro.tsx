@@ -26,7 +26,7 @@ export default function Intro() {
         <div className=" flex flex-col justify-center text-center lg:text-left">
           <div className="relative xl:text-7xl text-3xl mx-auto lg:mx-0">
             <h1 className=" l:text-4xl lg:text-4xl text-2xl mt-2 italic " >
-              Welcome to Suit bot
+              Welcome to Suit bot 2
             </h1>
           </div>
          
